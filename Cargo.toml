@@ -1,5 +1,5 @@
 [package]
-name = "bevy"
+name = "bevy_pong"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,6 +9,7 @@ log = { version = "*", features = [
   "max_level_debug",
   "release_max_level_warn",
 ] }
+rand = "0.9.0"
 
 
 # Enable a small amount of optimization in the dev profile.
